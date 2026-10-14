@@ -1,5 +1,13 @@
 # Consistent multi-view review
 
+## Reference prerequisite before modeling
+
+When the user or project requires multiple reference angles, establish those references before new geometry work. Record the selected source identity, required named views, saved image paths (or sheet regions), later corrections, inferred hidden details, and a visual consistency verdict. A file count is not a visual verdict: duplicated angles, contradictory silhouettes or a drifted design keep the reference unresolved. Reuse valid existing references; do not regenerate them merely because a new session starts.
+
+Check this record before assigning a modeling task, and include it in the brief. Where tooling supports it, fail the unit's authoring/review preflight on missing evidence, changed source hashes or an unresolved reference verdict. Such a check verifies recorded evidence and freshness; it cannot judge visual fidelity or prevent arbitrary manual edits. Block only dependent geometry work; independent gameplay fixes, diagnostics and reference preparation may continue. A changed reference or correction requires re-review of affected views.
+
+Track reference readiness, implementation evidence and user approval independently. Engine captures belong to implementation evidence and must never be substituted for design references. The original selected design and explicit later corrections remain authoritative over inferred views. This rule does not require an extra user approval unless the project or user already calls for it.
+
 Use when matching a character or prop reference, or when a single attractive angle conceals construction problems. Choose coverage and resolution for the ambiguity; there is no universal minimum view count.
 
 Write a compact target brief: selected reference, defining proportions, part layout, materials, pose/camera and allowed inference. Derive useful front, rear, side and three-quarter views from that design. Label invented hidden construction. Generated views can retain perspective or disagree on details; they are not measured orthographic plans. Do not redesign an approved front to accommodate an inconsistent generated rear.
