@@ -10,7 +10,7 @@ Build the intended experience in the running game. Preserve selected designs and
 ## Select relevant guidance
 
 - For reference matching, modeling, rigs, UVs, materials, baking or terrain, read [visual production](references/visual-production.md).
-- For consistent references and character inspection across angles, read [multi-view review](references/multi-view-review.md).
+- For consistent references and character inspection across angles, read [multi-view review](references/multi-view-review.md), including matched overlays, grid/part inspection and construction-before-detail review.
 - For lighting, effects, gameplay feel, integration or performance, read [runtime verification](references/runtime-verification.md).
 - For locomotion, work, attacks, transitions or attachments, read [animation and actions](references/animation-actions.md).
 - For a Blender upgrade, exporter change, bevel experiment or tool benchmark, read [Blender migration and bevels](references/blender-migration.md).
