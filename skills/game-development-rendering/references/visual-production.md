@@ -39,3 +39,5 @@ For high-to-low baking, keep editable source, low mesh/UVs and reproducible sett
 Terrain needs broad form, physical texture scale, intermediate accumulation and filtered fine detail. Displaced normals/tangents, footing, contact geometry and picking should use compatible height information. Preserve defining canopy coverage when simplifying distant vegetation. Transfer the cause of a successful biome treatment rather than its literal color or optical settings.
 
 Keep previous candidates and reproducible builders. Show matched reference/baseline/candidate views and the largest remaining mismatch. Test a representative second subject before broad reuse; rigid-shell methods may fail on deforming anatomy. Review [runtime integration](runtime-verification.md) before declaring an asset ready for play.
+
+For player-color materials, preserve an explicit ownership-paint mask separately from fixed finishes, including painted weapon surfaces. For construction, deformation and baking tool choices, use [Blender toolkit](blender-toolkit.md); availability alone is not proof of runtime improvement.

@@ -17,6 +17,8 @@ Build the intended experience in the running game. Preserve selected designs and
 - For corrections, exemplars and reusable lessons, read [feedback and experiments](references/feedback-and-experiments.md).
 - For engine and interchange mechanisms, consult [technical foundations](references/technical-foundations.md). Match documentation to the installed tool version.
 
+- For choosing Blender modeling, sculpting, baking, rigging or reusable authoring tools, read [Blender toolkit](references/blender-toolkit.md). Separate documented capabilities from tested engine results.
+
 ## Establish the target and evidence
 
 When a multi-view reference workflow has been agreed, reference readiness is a prerequisite to geometry work. Verify the required reference views exist and have been inspected for consistency with the selected design and later corrections before modeling or delegating it. Model screenshots do not satisfy this prerequisite. Keep reference readiness, model review and user approval separate; use the project's preflight when available.
