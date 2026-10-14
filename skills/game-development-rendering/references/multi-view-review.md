@@ -2,6 +2,16 @@
 
 ## Reference prerequisite before modeling
 
+After a design is selected and an active multi-view sheet is established, use that
+sheet and its named panel for ongoing modeling, capture setup and comparison. Retire
+the earlier A/B choice boards to selection history; do not repeatedly use them as the
+working target or reopen the choice. Later explicit user corrections still govern.
+Bind review inputs to the project's canonical active reference identity, source hash
+and view. Where tooling exists, reject a retired source, another unit, a crop outside
+the named panel or stale evidence before generating the review. Readiness alone is
+insufficient if the consumer can still select a different image. Reuse valid captures
+after checking their actual angle and pose against that active panel.
+
 When the user or project requires multiple reference angles, establish those references before new geometry work. Record the selected source identity, required named views, saved image paths (or sheet regions), later corrections, inferred hidden details, and a visual consistency verdict. A file count is not a visual verdict: duplicated angles, contradictory silhouettes or a drifted design keep the reference unresolved. Reuse valid existing references; do not regenerate them merely because a new session starts.
 
 Check this record before assigning a modeling task, and include it in the brief. Where tooling supports it, fail the unit's authoring/review preflight on missing evidence, changed source hashes or an unresolved reference verdict. Such a check verifies recorded evidence and freshness; it cannot judge visual fidelity or prevent arbitrary manual edits. Block only dependent geometry work; independent gameplay fixes, diagnostics and reference preparation may continue. A changed reference or correction requires re-review of affected views.
