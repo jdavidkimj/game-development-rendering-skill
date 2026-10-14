@@ -42,12 +42,27 @@ Keep a whole-model view beside the cell review so local repairs cannot silently 
 the silhouette. Review physical parts crossing cell boundaries together, including
 their neighboring supports and occluding layers.
 
+Match the reference's viewing direction and angle before reference-to-model grid
+comparison. Both subjects facing right (or left) is not enough: match model rotation
+relative to the camera, camera azimuth/yaw, elevation/pitch and roll, then projection
+and framing. A front view and a three-quarter view remain incompatible even when both
+face the same side. Recapture the actual model; do not mirror it, since asymmetric
+equipment would swap sides. Match the relevant pose and limb/weapon orientations too.
+
+Verify alignment visually using anatomical landmarks, visible front/side/top surfaces,
+foreshortening and occlusion before enabling linked cells. Matching camera parameter
+numbers alone is insufficient when models use different forward axes. For concept art
+without camera metadata, infer and refine the view; do not claim an exact measured angle.
+Keep the grid gated while the angle is unresolved. An "approximate" label or a coarse
+silhouette comparison does not satisfy this gate. Once the view is matched, mark any
+remaining pose-limited cells uncertain and obtain a matched pose before judging them.
+
 Register the images before judging cells. Record source identity, angle, pose/time,
 camera, crop bounds, scale and lighting. Preserve image aspect ratio; do not stretch,
 warp or independently fit every part to manufacture agreement. Reuse the same crop and
 camera for matched engine before/after views. If alignment must change, version it and
-recheck affected cell findings instead of reusing their old coordinates. An approximate
-concept angle is a reference study, not a pixel-aligned baseline. Mark perspective,
+recheck affected cell findings instead of reusing their old coordinates. An unmatched
+concept angle can support a separate overview study, but not the linked grid. Mark perspective,
 pose, occlusion or inferred hidden construction as uncertain where they prevent judgment.
 
 Use linked zoom and a blink or opacity overlay for genuinely matched engine captures.
