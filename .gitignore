@@ -1,0 +1,33 @@
+# Local tooling and temporary output
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.codex/
+tmp/
+temp/
+artifacts/
+captures/
+downloads/
+
+# Authoring and runtime assets do not belong in this instruction package
+*.blend
+*.blend1
+*.blend2
+*.fbx
+*.glb
+*.gltf
+*.obj
+*.usd
+*.usdc
+*.usdz
+*.mp4
+*.mov
+*.exe
+*.msi
+*.zip
+*.7z

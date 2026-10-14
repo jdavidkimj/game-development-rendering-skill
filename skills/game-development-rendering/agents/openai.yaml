@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Development & Rendering"
+  short_description: "Build and verify game assets in their real runtime"
+  default_prompt: "Use $game-development-rendering to refine this game asset and verify the result in the runtime."
