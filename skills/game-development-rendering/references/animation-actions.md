@@ -12,6 +12,8 @@ Diagnose the specific visible defect:
 - Absent/lingering effects: inspect delivery, visibility, budget admission, lifetime and reused-instance reset. An allocated particle system does not prove it drew.
 - Work actions: align work motion, contact cues, cargo state and return motion with the real action, including interruption.
 
+For imported harvesting systems, inspect the resource target and carried prop as well as the worker. Target-side activity, a work clip, cargo geometry and the cargo attachment may be separate actors. Resolve the authored cargo hardpoint before using a weapon-socket offset; preserve distinct container designs and verify pickup, travel and deposit at gameplay zoom.
+
 Share state and attachment infrastructure where compatible while preserving distinct authored motion, tool identity and surface response. Do not reopen an accepted model design to repair an event or attachment defect.
 
 Capture the whole affected sequence at normal speed. Keep timestamps and label sampled poses or clips as sampled evidence. Test a useful interruption and affected reuse/death/visibility case. Include the gameplay camera and actual scene lighting; closeups diagnose detail but cannot establish crowd readability.

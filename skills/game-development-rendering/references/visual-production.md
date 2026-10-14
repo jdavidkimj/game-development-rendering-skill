@@ -41,3 +41,7 @@ Terrain needs broad form, physical texture scale, intermediate accumulation and 
 Keep previous candidates and reproducible builders. Show matched reference/baseline/candidate views and the largest remaining mismatch. Test a representative second subject before broad reuse; rigid-shell methods may fail on deforming anatomy. Review [runtime integration](runtime-verification.md) before declaring an asset ready for play.
 
 For player-color materials, preserve an explicit ownership-paint mask separately from fixed finishes, including painted weapon surfaces. For construction, deformation and baking tool choices, use [Blender toolkit](blender-toolkit.md); availability alone is not proof of runtime improvement.
+
+## Imported material staging
+
+When newly extracted models export with placeholder textures, inspect which stage is missing: raw texture, decoded/processed image, material relink, or engine import. An exported mesh can be structurally valid while embedding placeholder pixels. Preserve the texture gate; prepare the missing maps and verify the new export. A file created by a failed extractor may be empty, so existence alone must not promote an asset to ready.
